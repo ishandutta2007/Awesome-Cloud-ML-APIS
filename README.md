@@ -6,7 +6,7 @@
 
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
-[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-ML-APIS?style=social)](https://github.com/ishandutta2007/Awesome-Cloud-ML-APIS/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-ML-APIS?style=social)](https://github.com/ishandutta2007/Awesome-Cloud-ML-APIS/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Cloud-ML-APIS/pulls)
 <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -62,9 +62,9 @@ A complete comparison of top-tier cloud machine learning platforms, serverless i
 
 ## 💻 Open-Source GitHub Projects
 
-The leading open-source model serving frameworks, inference engines, and local runtimes. Sorted by GitHub star count in descending order.
+The leading open-source model serving frameworks, inference engines, and local runtimes. Sorted by GitHub Stars_Count in descending order.
 
-| Project | ⭐ Stars | 📜 License | 💡 Primary Capabilities & Best Use Case |
+| Project | ⭐ GitHub_Stars | 📜 License | 💡 Primary Capabilities & Best Use Case |
 | :--- | :--- | :--- | :--- |
 | **[Ollama](https://github.com/ollama/ollama)** | [![Stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers) | MIT | **One-command local LLM runner**; effortless setup for local development, edge computing, and offline inference. |
 | **[llama.cpp](https://github.com/ggerganov/llama.cpp)** | [![Stars](https://img.shields.io/github/stars/ggerganov/llama.cpp?style=social&color=white)](https://github.com/ggerganov/llama.cpp/stargazers) | MIT | **Ultra-efficient C/C++ inference runtime** with integer quantization (GGUF, 2-bit to 8-bit) running on plain CPUs and consumer GPUs. |
@@ -113,7 +113,7 @@ The leading open-source model serving frameworks, inference engines, and local r
 1. Fork this repository 🍴
 2. Add or update tools in the table adhering to the schema:
    - For SaaS: include company valuation/revenue, starting tier pricing, and exact free tier/trial limits.
-   - For Open-Source: include the GitHub stars social badge linking directly to the repo's stargazers page.
+   - For Open-Source: include the GitHub_Stars social badge linking directly to the repo's stargazers page.
 3. Submit a Pull Request 🚀 with concise documentation and verified links.
 
 ---
