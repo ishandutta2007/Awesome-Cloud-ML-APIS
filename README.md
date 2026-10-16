@@ -1,43 +1,52 @@
-# Awesome-Cloud-ML-APIS
+<div align="center">
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+![Awesome Cloud ML APIs Banner](./assets/banner.svg)
+
+# 🚀 Awesome-Cloud-ML-APIS ☁️🤖
+
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
 [![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-ML-APIS?style=social)](https://github.com/ishandutta2007/Awesome-Cloud-ML-APIS/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Cloud-ML-APIS/pulls)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-> A curated directory of the best **Cloud ML APIs**, **serverless GPU inference platforms**, **managed model serving solutions**, and **open-source AI serving frameworks**.
+<p align="center">
+  <b>A curated catalog of the best Cloud ML APIs, serverless GPU inference endpoints, managed model serving platforms, and open-source AI infrastructure frameworks.</b>
+</p>
 
-**Top Cloud Machine Learning (ML) & Large Language Model (LLM) APIs Ecosystem**  
-*Comprehensive guide to Serverless Model Serving, GPU Inference, LLM Hosting, and Production Deployment Platforms.*
-
----
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Hosted Platforms](#saas--hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [Architectural Patterns & Selection Guide](#architectural-patterns--selection-guide)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer & Terms](#disclaimer--terms)
+</div>
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📑 Table of Contents
+
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🏗️ Architectural Patterns & Selection Guide](#️-architectural-patterns--selection-guide)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⭐ Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚖️ Disclaimer & Terms](#️-disclaimer--terms)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
 
 The global **Cloud AI and Machine Learning API market** is estimated at **$100B–$135B** in 2024–2026, projected to exceed **$700B to $1.3T+ by the early 2030s** at an aggressive 25%–36% CAGR.
 
 The sector exhibits a dual market dynamic:
-- **Concentrated at the foundational infrastructure layer (Oligopoly / Winner-Take-Most)**: Dominated by hyperscalers (Microsoft Azure, AWS, Google Cloud) that control raw GPU clusters, data center footprint, custom silicon (Trainium, TPUs), and enterprise cloud commitments.
-- **Moderately fragmented across specialized inference and serverless platforms**: High-growth challengers (Modal, Together AI, Baseten, RunPod, Replicate) compete intensely on cold-start latency, developer experience (DX), auto-scaling to zero, and price-per-token economics for open-weights models.
+- 🏛️ **Concentrated at the foundational infrastructure layer (Oligopoly / Winner-Take-Most)**: Dominated by hyperscalers (Microsoft Azure, AWS, Google Cloud) that control raw GPU clusters, global data center footprints, custom silicon (Trainium, TPUs), and enterprise cloud commitments.
+- 🧩 **Moderately fragmented across specialized inference and serverless platforms**: High-growth innovators (Modal, Together AI, Baseten, RunPod, Replicate) compete intensely on cold-start latency, developer experience (DX), auto-scaling to zero, and price-per-token economics for open-weights models.
 
 ---
 
-## SaaS & Hosted Platforms
+## 🏢 SaaS & Hosted Platforms
 
 A complete comparison of top-tier cloud machine learning platforms, serverless inference APIs, and managed endpoint services. Sorted by company scale (market cap / latest valuation in descending order).
 
-| Platform | Market Cap / Valuation | Primary Focus | Pricing (Starting Tier) | Free Tier / Trial Limits |
+| Platform | 🌐 Market Cap / Valuation | 🎯 Primary Focus | 💳 Pricing (Starting Tier) | 🎁 Free Tier / Trial Limits |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Microsoft Azure ML Endpoints](https://azure.microsoft.com/en-us/products/machine-learning/)** | ~$3.1T Market Cap | Enterprise managed online/batch inference & MLflow governance | From ~$0.096/hr (CPU instances like B2s) / ~$0.90/hr (NC6s GPU) | **$200 credit** (valid for 30 days) + 55+ services free for 12 months |
 | **[AWS SageMaker Endpoints](https://aws.amazon.com/sagemaker/)** | ~$1.9T Market Cap | Real-time, asynchronous & serverless ML endpoints on AWS | Serverless inference from ~$0.000020/second (~$0.072/hr) | **Free Tier (First 2 months)**: 250 hours/month of `ml.t2.medium` or `ml.t3.medium` real-time endpoints |
@@ -51,11 +60,11 @@ A complete comparison of top-tier cloud machine learning platforms, serverless i
 
 ---
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 
-The leading open-source model serving frameworks, inference engines, and local runtime runtimes. Sorted by GitHub star count in descending order.
+The leading open-source model serving frameworks, inference engines, and local runtimes. Sorted by GitHub star count in descending order.
 
-| Project | Stars | License | Primary Capabilities & Best Use Case |
+| Project | ⭐ Stars | 📜 License | 💡 Primary Capabilities & Best Use Case |
 | :--- | :--- | :--- | :--- |
 | **[Ollama](https://github.com/ollama/ollama)** | [![Stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers) | MIT | **One-command local LLM runner**; effortless setup for local development, edge computing, and offline inference. |
 | **[llama.cpp](https://github.com/ggerganov/llama.cpp)** | [![Stars](https://img.shields.io/github/stars/ggerganov/llama.cpp?style=social&color=white)](https://github.com/ggerganov/llama.cpp/stargazers) | MIT | **Ultra-efficient C/C++ inference runtime** with integer quantization (GGUF, 2-bit to 8-bit) running on plain CPUs and consumer GPUs. |
@@ -85,36 +94,55 @@ The leading open-source model serving frameworks, inference engines, and local r
 
 ---
 
-## Architectural Patterns & Selection Guide
+## 🏗️ Architectural Patterns & Selection Guide
 
-- **Serverless Scale-to-Zero vs. Persistent Clusters**:
+- ⚡ **Serverless Scale-to-Zero vs. Persistent Clusters**:
   - Choose **Modal**, **RunPod**, or **Replicate** when workloads are bursty or intermittent; paying only for exact GPU execution seconds prevents idle compute overhead.
   - Choose **Ray Serve**, **vLLM**, or **Triton on Kubernetes** for sustained high-concurrency enterprise workloads where cold-start latency must be eliminated and GPU utilization exceeds 70%.
-- **LLM High-Concurrency Serving**:
+- 🧠 **LLM High-Concurrency Serving**:
   - Standardize on **vLLM** (PagedAttention, continuous batching) or **SGLang** (RadixAttention for agentic multi-turn prompt caching).
-- **Heterogeneous & Multi-Modal Models**:
+- 🧩 **Heterogeneous & Multi-Modal Models**:
   - Deploy **Triton Inference Server** when coordinating pipelines combining computer vision (TensorRT), embeddings (ONNX), and LLM generation.
-- **Enterprise Kubernetes Native**:
+- ☸️ **Enterprise Kubernetes Native**:
   - Use **KServe** for multi-tenant clusters requiring Knative autoscaling, Istio service meshes, and canary traffic splitting.
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
-1. Fork this repository.
+1. Fork this repository 🍴
 2. Add or update tools in the table adhering to the schema:
    - For SaaS: include company valuation/revenue, starting tier pricing, and exact free tier/trial limits.
    - For Open-Source: include the GitHub stars social badge linking directly to the repo's stargazers page.
-3. Submit a Pull Request with concise documentation and verified links.
+3. Submit a Pull Request 🚀 with concise documentation and verified links.
 
 ---
 
-## Disclaimer & Terms
+## ⭐ Star History
 
-- This directory is an independent community-curated reference list and is not affiliated with any cloud vendor or company listed.
-- Cloud ML APIs processing user inputs must strictly comply with regional data governance (GDPR, HIPAA, SOC 2, CCPA) and model licensing terms.
-- Performance characteristics, hardware pricing, and API quotas are subject to change by respective providers. Always verify current rates against official vendor portals.
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Cloud-ML-APIS&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Cloud-ML-APIS&type=date&legend=top-left)
 
 ---
 
-*Maintained for ML engineers, AI infrastructure builders, and backend developers seeking reliable, scalable, and data-driven model serving solutions.*
+## 💖 Support & Sponsorship
+
+Thank you so much for exploring **Awesome-Cloud-ML-APIS**! ❤️ If this curated list helped you select an inference platform or save infrastructure engineering hours, please consider showing your support:
+
+- ⭐ **Star this repository** to help others discover it on GitHub.
+- 🍴 **Fork and contribute** your favorite model serving tools and updates.
+- 📢 **Share** with your fellow AI/ML engineers and tech communities.
+- ☕ **Sponsor or buy a coffee**: Support ongoing curation and maintenance via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⚖️ Disclaimer & Terms
+
+- 📌 This directory is an independent community-curated reference list and is not affiliated with any cloud vendor or company listed.
+- 🔒 Cloud ML APIs processing user inputs must strictly comply with regional data governance (GDPR, HIPAA, SOC 2, CCPA) and model licensing terms.
+- 💡 Performance characteristics, hardware pricing, and API quotas are subject to change by respective providers. Always verify current rates against official vendor portals.
+
+---
+
+<div align="center">
+  <sub>Maintained with ❤️ for ML engineers, AI infrastructure builders, and backend developers seeking reliable, scalable, and data-driven model serving solutions.</sub>
+</div>
